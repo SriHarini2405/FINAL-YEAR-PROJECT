@@ -1,0 +1,37 @@
+# ==============================================================================
+# Git Ignore for RISC-V AXI SoC & Vivado / Cadence EDA Flow
+# ==============================================================================
+
+# Vivado / XSim Temporary Files & Logs
+*.log
+*.jou
+*.pb
+*.str
+*.wdb
+*.vcd
+*.key
+webtalk*
+
+# Vivado Cache and Working Directories
+.Xil/
+xsim.dir/
+vivado_project/*.cache/
+vivado_project/*.hw/
+vivado_project/*.ip_user_files/
+vivado_project/*.sim/
+vivado_project/*.runs/
+
+# Cadence Genus / Innovus Temporary Files
+fv/
+genus.log*
+genus.cmd*
+innovus.log*
+innovus.cmd*
+*.rpt
+*.sdc.check
+timingReports/
+
+# OS-Specific
+Thumbs.db
+.DS_Store
+*.tmp
